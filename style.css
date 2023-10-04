@@ -1,0 +1,123 @@
+@import '/_reset.css';
+@import "slick-carousel/slick/slick";
+
+html,
+body {
+	height: 100%;
+    background-color: bisque;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.header{
+    background-color: #EEDE52;
+    
+}
+
+.header_item{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    list-style: none
+}
+
+.header_items{
+    font-family:'Montserrat';
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.header_items-logo{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin-left: 50px;
+
+}
+.start{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.start_bg{
+    width: 1140px;
+    height: 400px;
+    display: flex;
+    background-image: url(images\bc\1.jpg);
+
+}
+.top__slider-text{
+    justify-content: right;
+    
+    width: 400px;
+    text-align: left;
+    font-family: 'Montserrat';
+    margin-left: auto;
+}
+
+.jobs{
+    display: flex;
+}
+.jobs_text{
+    width: 570px;
+    font-family: 'Montserrat';
+    line-height: 34px;
+    font-size: 40px;
+    height: 340px;
+    margin-top: 70px;
+}
+.jobs_images{
+    width: 570px;
+
+}
+.jobs_images-list{
+    display: grid;
+    list-style: none;
+    height: 340px;
+    grid-template-columns: repeat(3,2fr);
+    grid-gap: 30px;
+}
+
+.jobs_images-item{
+    width: 30px;
+    height: 30px;
+}
+
+.yslyg{
+    width: 1140px;
+}
+.yslyg_text{
+    font-family: 'Montserrat';
+    line-height: 34px;
+    font-size: 40px;
+}
+.yslyg_list{
+    align-items: center;
+    margin: 0;
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(5,2fr);
+    justify-content: space-between;
+    max-height: 500px;
+    grid-gap: 10px;
+}
+
+.yslyg_item{
+    max-width: 180px;
+}
+
+.yslyg_item-name{
+    font-family: "Montserrat";
+    text-align: center;
+    height: 30px;
+    align-items: center;
+}
